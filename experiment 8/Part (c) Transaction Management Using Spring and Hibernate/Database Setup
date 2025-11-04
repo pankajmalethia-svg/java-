@@ -1,0 +1,8 @@
+CREATE TABLE Account (
+  accNo INT PRIMARY KEY,
+  name VARCHAR(50),
+  balance DOUBLE
+);
+
+INSERT INTO Account VALUES (1001, 'Alice', 5000), (1002, 'Bob', 3000);
+
